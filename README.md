@@ -18,48 +18,47 @@ After downloading, simply edit the HTML and CSS files included with `root` direc
 
 Add basic metadata to your head of web page and fill it out accordingly:
 
-   <meta charset="UTF-8">
-   <title>3D menu</title>
-   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
-   <meta name="description" content="creative 3D menu with color selection" />
-   <meta name="keywords" content="3D menu, creative menu, menu, css, html, web design" />
-   <meta name="theme-color" content="#323a53" />
-   <meta name="author" content="Lebryere" />
+-`   <meta charset=`"UTF-8"`>`
+-`   <title>` # `</title>`
+-`   <meta name=`"viewport" content="width=device-width,initial-scale=1,user-scalablegit add .dsfdfdfvdfvdfvfv=yes"` />`
+-`   <meta name=`"description" content=" # "` />`
+-`   <meta name=`"keywords" content=" # "` />`
+-`   <meta name=`"theme-color" content=" # "` />`
+-`   <meta name=`"author" content=" # "` />`
 
-   <meta property="og:title" content="3D menu" />
-   <meta property="og:site_name" content="3D menu" />
-   <meta property="og:description" content="creative 3D menu with color selection" />
-   <meta property="og:determiner" content="the" />
-   <meta property="og:image" content="http://your-website.com/example.jpg" />
-   <meta property="og:image:secure_url" content="https://your-website.com/ogp.jpg" />
-   <meta property="og:image:type" content="image/jpeg" />
-   <meta property="og:image:width" content="1280" />
-   <meta property="og:image:height" content="640" />
-   <meta property="og:url" content="http://your-website.com/index.html" />
-   <meta property="og:type" content="article" />
-   <meta property='article:author' content="Lebryere" />
-   <meta property='article:publisher' content="Lebryere" />
-   <meta property="article:section" content="Lebryere" />
-   <meta property="og:locale" content="en_GB" />
-   <meta property="og:locale:alternate" content="hu_HU" />
+-`   <meta property=`"og:title" content=" # "` />`
+-`   <meta property=`"og:site_name" content=" # "` />`
+-`   <meta property=`"og:description" content=" # "` />`
+-`   <meta property=`"og:determiner" content=" # "` />`
+-`   <meta property=`"og:image" content="https:// # .jpg"` />`
+-`   <meta property=`"og:image:secure_url" content="https:// # .jpg"` />`
+-`   <meta property=`"og:image:type" content="image/jpeg"` />`
+-`   <meta property=`"og:image:width" content=" # "` />`
+-`   <meta property=`"og:image:height" content=" # "` />`
+-`   <meta property=`"og:url" content="https:// # /index.html"` />`
+-`   <meta property=`"og:type" content="article"` />`
+-`   <meta property=`'article:author' content=" # "` />`
+-`   <meta property=`'article:publisher' content=" # "` />`
+-`   <meta property=`"article:section" content=" # "` />`
+-`   <meta property=`"og:locale" content=" # "` />`
+-`   <meta property=`"og:locale:alternate" content=" # "` />`
    
-   <meta property="fb:app_id" content="your_app_id" />
+-`  <meta property=`"fb:app_id" content=" # "` />`
 
-   <meta name="twitter:title" content="3D menu">
-   <meta name="twitter:description" content="creative 3D menu with color selection">
-   <meta name="twitter:site" content="@website-username">
-   <meta name="twitter:image" content="http://your-website.com/example.jpg" />
-   <meta name="twitter:image:alt" content="3D menu image">
-   <meta name="twitter:card" content="summary_large_image">
+-`   <meta name=`"twitter:title" content=" # ">
+-`   <meta name=`"twitter:description" content=" # ">
+-`   <meta name=`"twitter:site" content="@website-username">
+-`   <meta name=`"twitter:image" content="https:// # .jpg"` />`
+-`   <meta name=`"twitter:image:alt" content=" # ">
+-`   <meta name=`"twitter:card" content=" # ">
    
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <meta http-equiv="Content-Language" content="en" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+-`   <meta http-equiv=`"Content-Type" content="text/html; charset=utf-8"` />`
+-`   <meta http-equiv=`"Content-Language" content=" # "` />`
+-`   <meta http-equiv=`"X-UA-Compatible" content="IE=edge"` />`
 
-   <meta content="ie=edge" http-equiv="x-ua-compatible" />
+-`   <meta content=`"ie=edge" http-equiv="x-ua-compatible"` />`
 
-   <link rel="canonical" href="https://your-website.com/page/" />  
-
+-`   <link rel=`"canonical" href="https:// # /page/"` />`
 
 
 ## Copyright and License
