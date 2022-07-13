@@ -1,8 +1,8 @@
-# [LeBryere - 3D menu](https://https://LeBryere.github.io/3D-menu/)
+# [LeBryere - 3D menu](https://lebryere.github.io/3d-menu.github.io/)
 
 ## Preview
 
-[![Resume Preview](https://raw.githubusercontent.com/LeBryere/3D-menu/master/preview.png)](https://LeBryere.github.io/3D-menu/)
+[![Resume Preview](https://raw.githubusercontent.com/LeBryere/3D-menu/master/preview.png)](https://lebryere.github.io/3d-menu.github.io/)
 
 **[View Live Preview](https://lebryere.github.io/3d-menu.github.io/)**
 
