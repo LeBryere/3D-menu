@@ -1,4 +1,6 @@
-# [LeBryere - 3D menu](https://)
+<style>h2{color:orange;}</style>
+
+# [LeBryere - 3D menu](https://https://LeBryere.github.io/3D-menu/)
 
 ## Preview
 
@@ -16,7 +18,7 @@
 
 After downloading, simply edit the HTML and CSS files included with `root` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-### Color variables:
+### Color variables
 
 :root{
    --bg_color: #323a53;
