@@ -18,47 +18,47 @@ After downloading, simply edit the HTML and CSS files included with `root` direc
 
 Add basic metadata to your head of web page and fill it out accordingly:
 
--`   <meta charset=`"UTF-8"`>`
--`   <title>` # `</title>`
--`   <meta name=`"viewport" content="width=device-width,initial-scale=1,user-scalablegit add .dsfdfdfvdfvdfvfv=yes"` />`
--`   <meta name=`"description" content=" # "` />`
--`   <meta name=`"keywords" content=" # "` />`
--`   <meta name=`"theme-color" content=" # "` />`
--`   <meta name=`"author" content=" # "` />`
+- `   <meta charset=`"UTF-8"`>`
+- `   <title>` # `</title>`
+- `   <meta name=`"viewport" content="width=device-width,initial-scale=1,user-scalablegit add .dsfdfdfvdfvdfvfv=yes"` />`
+- `   <meta name=`"description" content=" # "` />`
+- `   <meta name=`"keywords" content=" # "` />`
+- `   <meta name=`"theme-color" content=" # "` />`
+- `   <meta name=`"author" content=" # "` />`
 
--`   <meta property=`"og:title" content=" # "` />`
--`   <meta property=`"og:site_name" content=" # "` />`
--`   <meta property=`"og:description" content=" # "` />`
--`   <meta property=`"og:determiner" content=" # "` />`
--`   <meta property=`"og:image" content="https:// # .jpg"` />`
--`   <meta property=`"og:image:secure_url" content="https:// # .jpg"` />`
--`   <meta property=`"og:image:type" content="image/jpeg"` />`
--`   <meta property=`"og:image:width" content=" # "` />`
--`   <meta property=`"og:image:height" content=" # "` />`
--`   <meta property=`"og:url" content="https:// # /index.html"` />`
--`   <meta property=`"og:type" content="article"` />`
--`   <meta property=`'article:author' content=" # "` />`
--`   <meta property=`'article:publisher' content=" # "` />`
--`   <meta property=`"article:section" content=" # "` />`
--`   <meta property=`"og:locale" content=" # "` />`
--`   <meta property=`"og:locale:alternate" content=" # "` />`
+- `   <meta property=`"og:title" content=" # "` />`
+- `   <meta property=`"og:site_name" content=" # "` />`
+- `   <meta property=`"og:description" content=" # "` />`
+- `   <meta property=`"og:determiner" content=" # "` />`
+- `   <meta property=`"og:image" content="https:// # .jpg"` />`
+- `   <meta property=`"og:image:secure_url" content="https:// # .jpg"` />`
+- `   <meta property=`"og:image:type" content="image/jpeg"` />`
+- `   <meta property=`"og:image:width" content=" # "` />`
+- `   <meta property=`"og:image:height" content=" # "` />`
+- `   <meta property=`"og:url" content="https:// # /index.html"` />`
+- `   <meta property=`"og:type" content="article"` />`
+- `   <meta property=`'article:author' content=" # "` />`
+- `   <meta property=`'article:publisher' content=" # "` />`
+- `   <meta property=`"article:section" content=" # "` />`
+- `   <meta property=`"og:locale" content=" # "` />`
+- `   <meta property=`"og:locale:alternate" content=" # "` />`
    
--`  <meta property=`"fb:app_id" content=" # "` />`
+- `  <meta property=`"fb:app_id" content=" # "` />`
 
--`   <meta name=`"twitter:title" content=" # ">
--`   <meta name=`"twitter:description" content=" # ">
--`   <meta name=`"twitter:site" content="@website-username">
--`   <meta name=`"twitter:image" content="https:// # .jpg"` />`
--`   <meta name=`"twitter:image:alt" content=" # ">
--`   <meta name=`"twitter:card" content=" # ">
+- `   <meta name=`"twitter:title" content=" # ">
+- `   <meta name=`"twitter:description" content=" # ">
+- `   <meta name=`"twitter:site" content="@website-username">
+- `   <meta name=`"twitter:image" content="https:// # .jpg"` />`
+- `   <meta name=`"twitter:image:alt" content=" # ">
+- `   <meta name=`"twitter:card" content=" # ">
    
--`   <meta http-equiv=`"Content-Type" content="text/html; charset=utf-8"` />`
--`   <meta http-equiv=`"Content-Language" content=" # "` />`
--`   <meta http-equiv=`"X-UA-Compatible" content="IE=edge"` />`
+- `   <meta http-equiv=`"Content-Type" content="text/html; charset=utf-8"` />`
+- `   <meta http-equiv=`"Content-Language" content=" # "` />`
+- `   <meta http-equiv=`"X-UA-Compatible" content="IE=edge"` />`
 
--`   <meta content=`"ie=edge" http-equiv="x-ua-compatible"` />`
+- `   <meta content=`"ie=edge" http-equiv="x-ua-compatible"` />`
 
--`   <link rel=`"canonical" href="https:// # /page/"` />`
+- `   <link rel=`"canonical" href="https:// # /page/"` />`
 
 
 ## Copyright and License
