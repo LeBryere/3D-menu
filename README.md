@@ -4,7 +4,7 @@
 
 [![Resume Preview](https://raw.githubusercontent.com/LeBryere/3D-menu/master/preview.png)](https://LeBryere.github.io/3D-menu/)
 
-**[View Live Preview](https://raw.githubusercontent.com/LeBryere/D-menu/master/preview.png)**
+**[View Live Preview](https://lebryere.github.io/3d-menu.github.io/)**
 
 ## Status
 
