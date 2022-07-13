@@ -16,6 +16,19 @@
 
 After downloading, simply edit the HTML and CSS files included with `root` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
+### Color variables:
+
+:root{
+   --bg_color: #323a53;
+   --text_color: #d1f0ff;
+   --choose_color: #373e53;
+   --choose_color_2: #12151f;
+   --hover_1: #ff5900;
+   --hover_2: #791b01;
+}
+
+### Open Graph
+
 Add basic metadata to your head of web page and fill it out accordingly:
 
 - `   <meta charset=`"UTF-8"`>`
