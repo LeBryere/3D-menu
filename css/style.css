@@ -1,3 +1,4 @@
+/*  VARIABLES  */
 :root {
    --bg_color: #323a53;
    --text_color: #d1f0ff;
@@ -6,7 +7,7 @@
    --hover_1: #ff5900;
    --hover_2: #791b01;
 }
-
+/*  RESET  */
 * {
    margin: 0;
    padding: 0;
@@ -19,7 +20,7 @@ body {
    position: relative;
    background: var(--bg_color);
 }
-
+/*  MENU   */
 #menu_3d {
    position: relative;
    display: flex;
@@ -110,7 +111,7 @@ body {
 .menu_class:hover .first_layer a {
    color: var(--text_color);
 }
-
+/*   CONTENT  */
 .content_holder {
    position: absolute;
    width: 100%;
