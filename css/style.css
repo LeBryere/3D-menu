@@ -7,6 +7,7 @@
    --hover_1: #ff5900;
    --hover_2: #791b01;
 }
+
 /*  RESET  */
 * {
    margin: 0;
@@ -17,19 +18,19 @@
 }
 
 body {
-   position: relative;
    background: var(--bg_color);
 }
+
 /*  MENU   */
 #menu_3d {
    position: relative;
+   width: 100%;
+   height: calc(100vh - 180px);
    display: flex;
    flex-direction: column;
    justify-content: normal;
    align-items: normal;
-   gap: 5px;
-   width: 100%;
-   height: calc(100vh - 180px);
+   gap: 10px;
    top: 0;
    left: -120px;
    z-index: 99;
@@ -37,23 +38,30 @@ body {
 
 .menu_class {
    position: relative;
+   width: 150px;
+   height: 50px;
    display: flex;
    justify-content: center;
    align-items: center;
    left: 0px;
    top: 0px;
-   width: 150px;
-   height: 50px;
    transition: .3s;
+}
+
+.menu_class:hover {
+   left: 100px;
+   top: 25px;
 }
 
 .menu_class .first_layer {
    position: absolute;
+   width: 130px;
+   height: 40px;
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 130px;
-   height: 40px;
+   transform: skewY(15deg);
+   perspective: 150px;
 }
 
 .menu_class .first_layer a {
@@ -63,7 +71,7 @@ body {
    text-decoration: none;
    text-transform: uppercase;
    font-weight: bold;
-   color: transparent;
+   color: var(--text_color);
    transition: .3s;
 }
 
@@ -72,45 +80,79 @@ body {
    width: 100%;
    height: 100%;
    border-radius: 100vmax;
-   background: linear-gradient(178deg, var(--choose_color) 0%, var(--choose_color_2) 90%);
+   background: linear-gradient(178deg,
+         var(--choose_color) 0%,
+         var(--choose_color_2) 90%);
    box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.07);
    transform-origin: bottom;
    transform: skewY(15deg);
 }
-
-.menu_class:hover article {
-   background: linear-gradient(177deg, var(--hover_1) 0%, var(--hover_2) 100%);
+.menu_class article::after{
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   border-radius: 100vmax;
+   background: linear-gradient(177deg,
+   var(--hover_1) 0%,
+   var(--hover_2) 100%);
+   box-shadow: 0 -0.5px 1px var(--hover_1);
+   opacity: 0;
+   transition: opacity .3s;
+   z-index: 2;
 }
 
-.menu_class .first_layer {
-   transform: skewY(15deg);
-   perspective: 150px;
+.menu_class:hover article::after {
+  opacity: 1;
+  z-index: 1;
+}
+
+.menu_class:nth-child(1):hover~.menu_class:nth-child(2) article {
+   background: linear-gradient(182deg,
+         var(--hover_1) 0%,
+         var(--choose_color) 10%,
+         var(--choose_color_2) 90%);
+}
+
+.menu_class:nth-child(2):hover~.menu_class:nth-child(3) article {
+   background: linear-gradient(182deg,
+         var(--hover_1) 0%,
+         var(--choose_color) 10%,
+         var(--choose_color_2) 90%);
+}
+
+.menu_class:nth-child(3):hover~.menu_class:nth-child(4) article {
+   background: linear-gradient(182deg,
+         var(--hover_1) 0%,
+         var(--choose_color) 10%,
+         var(--choose_color_2) 90%);
+}
+
+.menu_class:nth-child(4):hover~.menu_class:nth-child(5) article {
+   background: linear-gradient(182deg,
+         var(--hover_1) 0%,
+         var(--choose_color) 10%,
+         var(--choose_color_2) 90%);
 }
 
 .menu_class ion-icon {
    position: absolute;
-   right: -34px;
-   top: 4px;
    width: 40px;
    height: 20px;
+   top: 4px;
+   right: -34px;
    color: var(--text_color);
    transform-style: preserve-3d;
    transform: rotateX(-25deg) rotateY(30deg) rotateZ(-30deg);
    transition: .3s;
 }
 
-.menu_class:hover {
-   left: 100px;
-   top: 25px;
-}
-
 .menu_class:hover ion-icon {
    color: transparent;
 }
 
-.menu_class:hover .first_layer a {
-   color: var(--text_color);
-}
 /*   CONTENT  */
 .content_holder {
    position: absolute;
