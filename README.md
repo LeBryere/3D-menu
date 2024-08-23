@@ -1,10 +1,10 @@
-# [LeBryere - 3D menu](https://lebryere.github.io/3d-menu/)
+# [LeBryere - 3D menu](https://lebryere.github.io/3D-menu/)
 
 ## Preview
 
-[![Resume Preview](https://raw.githubusercontent.com/LeBryere/3D-menu/master/preview.png)](https://lebryere.github.io/3d-menu/)
+[![Resume Preview](https://raw.githubusercontent.com/LeBryere/3D-menu/master/preview.png)](https://lebryere.github.io/3D-menu/)
 
-**[View Live Preview](https://lebryere.github.io/3d-menu/)**
+**[View Live Preview](https://lebryere.github.io/3D-menu/)**
 
 ## Status
 
